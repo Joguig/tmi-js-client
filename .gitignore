@@ -1,0 +1,9 @@
+deploy
+tmp/
+node_modules/
+.DS_Store
+.vagrant/
+.manta/
+
+# self-signed ssl cert
+/ssl

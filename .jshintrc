@@ -1,0 +1,16 @@
+{
+  "bitwise": true,
+  "camelcase": false,
+  "newcap": true,
+  "undef": true,
+  "forin": true,
+  "immed": false,
+  "latedef": false,
+  "nonew": true,
+  "browser": true,
+  "browserify": true,
+  "noarg": true,
+  "noempty": false,
+  
+  "esnext": true
+}

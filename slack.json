@@ -1,0 +1,36 @@
+{
+  "channel": "#chat-and-messaging",
+  "build": {
+    "branches": {
+      "master": {
+        "pending": false,
+        "success": false,
+        "failure": true
+      }
+    }
+  },
+  "deploy": {
+    "environments": {
+      "clean-production": {
+        "success": true,
+        "pending": false,
+        "failure": true
+      },
+      "clean-beta-1": {
+        "success": true,
+        "pending": false,
+        "failure": true
+      },
+      "clean-beta-2": {
+        "success": true,
+        "pending": false,
+        "failure": true
+      },
+      "*": {
+        "success": false,
+        "pending": false,
+        "failure": false
+      }
+    }
+  }
+}

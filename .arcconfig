@@ -1,0 +1,5 @@
+{
+  "project_id":         "tmi",
+  "conduit_uri":        "https://phabricator.internal.justin.tv",
+  "immutable_history":  true
+}

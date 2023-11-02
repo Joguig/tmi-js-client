@@ -1,0 +1,17 @@
+{
+  "job": "chat-tmi-js-client-deploy",
+  "required_contexts": [],
+  "environments": {
+    "clean-production": {
+      "required_contexts": ["chat-tmi-js-client"]
+    },
+    "clean-staging-www": {},
+    "clean-staging-api": {},
+    "clean-tarrant-test-1": {}
+  },
+  "consul_services": [
+    "web-rails-nginx",
+    "deploy-tmiclient-libs"
+  ],
+  "artifact": "tar"
+}
